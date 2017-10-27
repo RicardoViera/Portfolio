@@ -203,24 +203,30 @@ body {
     display:inline-block;
 }
 }
-@media screen and (min-width: 750px) {
-    .row .proj2 {
-        margin-right: 3%;
-        margin-left: 3%;
-    }
+@media (min-width: 500px) and (max-width: 769px) {
         .skillhead{
         padding-top: 100px;
     }
 }
+@media (max-width: 1024px) and (min-width: 770px) {
+                .skillhead{
+        padding-top: 290px;
+    }
 
+}
 @media screen and (min-width: 1024px) {
     .row .proj2 {
         margin-right: 6%;
         margin-left: 6%;
     }
-            .skillhead{
-        padding-top: 290px;
+
+}
+@media screen and (min-width: 500px) {
+    .row .proj2 {
+        margin-right: 3%;
+        margin-left: 3%;
     }
+
 }
 .header1 {
     padding-left: 20%;
@@ -235,7 +241,7 @@ body {
 }
 
 .caption {
-    font-size: 2.1vmin;
+    font-size: 13px;
     text-align: center;
 }
 .smallcap {
@@ -343,4 +349,3 @@ a:active {
     float:right;
     font-size: 18px;
 }
-    
