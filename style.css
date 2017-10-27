@@ -164,7 +164,7 @@ body {
     -webkit-margin-end: 0;
     box-shadow: 1px 1px 6px 4px #BA1D20;
 }
-@media screen and (min-width: 820px) and (max-width: 767px) {
+@media screen and (min-width: 820px) {
     .row .proj2 {
         margin-right: 6%;
         margin-left: 6%;
