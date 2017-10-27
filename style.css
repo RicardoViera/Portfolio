@@ -61,9 +61,6 @@ h3 {
     overflow: hidden;
     text-align: center;
 }
-.prcap {
-    text-align: center;
-}
 .header .logo {
     padding-left: 1em;
     padding-top: 2em;
@@ -159,12 +156,19 @@ body {
 .proj2,
 .proj3 {
     padding: 1%;
-    width: 260px;
+    width: 26.7%;
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
     box-shadow: 1px 1px 6px 4px #BA1D20;
 }
-@media screen and (min-width: 820px) {
+@media screen and (max-width: 400px) {
+    .row .proj1,
+.proj2,
+.proj3 {
+    width: 200px;
+    }
+}
+@media screen and (min-width: 400px) {
     .row .proj2 {
         margin-right: 6%;
         margin-left: 6%;
@@ -181,12 +185,15 @@ body {
 .header2 h2{
     padding-left: 10px;
 }
+.caption h3{
+    padding-bottom:5px;
+}
 .caption {
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
 }
 .smallcap {
-    font-size: 2.5vmin;
+    font-size: 10px;
     text-align: center;
 }
 .about {
@@ -207,7 +214,7 @@ body {
     overflow: hidden;
 }
 .listoflinks li {
-    padding: 1em;
+    padding: .5em;
     display: inline-flex;
 }
 .listoflinks a:link,
@@ -238,7 +245,7 @@ a:active {
     list-style-type: none;
 }
 .skills li {
-    padding: 1em;
+    padding: .5em;
     display: inline-flex;
 }
 .skills span {
