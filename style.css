@@ -57,7 +57,7 @@
 }
 h3 {
     font-family: 'Russo One', sans-serif;
-    font-size: 3.5vmin;
+    font-size: 3vmin;
     overflow: hidden;
     text-align: center;
 }
@@ -153,17 +153,6 @@ body {
 #box2,
 #box3{
     background-color: white;
-}
-#box1:hover,
-#box2:hover,
-#box3:hover,
-#box1:active,
-#box2:active
-#box3:active {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    -webkit-transition: -webkit-transform .15s linear;
 }
 .row .proj1,
 .proj2,
