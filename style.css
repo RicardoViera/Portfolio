@@ -318,10 +318,6 @@ a:active {
     background-color: #2F3A50;
     border-radius: 5px;
     display:inline-block;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    -webkit-transition: -webkit-transform .15s linear;
 }
 .footer {
     padding: 1%;
