@@ -159,11 +159,12 @@ body {
 #box3:hover,
 #box1:active,
 #box2:active,
-#box3:active{
+#box3:active { 
 -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     -webkit-transition: -webkit-transform .15s linear;
+    transition: transform .15slinear;
 }
 .row .proj1,
 .proj2,
