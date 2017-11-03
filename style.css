@@ -339,12 +339,11 @@ a:active {
 }
 @media (min-width: 500px) and (max-width: 769px) {
         .skillhead{
-        padding-top: 100px;
+        padding-top: 230px;
     }
 }
-@media (max-width: 1024px) and (min-width: 770px) {
-                .skillhead{
-        padding-top: 290px;
+@media screen and (min-width: 1024px) {
+    .bio{
+        font-size:18px!important;
     }
-
 }
