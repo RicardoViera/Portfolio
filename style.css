@@ -221,7 +221,7 @@ body {
     }
 
 }
-@media (min-width: 460px) and (max-width: 750px) {
+@media (min-width: 320px) and (max-width: 1000px) {
     .bio{
         display:inline-flex;
     }
