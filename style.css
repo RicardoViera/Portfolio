@@ -345,12 +345,11 @@ a:active {
 }
 
 .footer a{
-    float:right;
-    font-size: 18px;
+    text-decoration: none;
     color: #2F3A50;
 }
 .footer a:hover{
+    text-decoration: none;
     color: #BA1D20;
-}
 }
 
