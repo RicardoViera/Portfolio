@@ -137,9 +137,11 @@ aside {
     padding-bottom: 3%;
 }
 .picon{
+    vertical-align: middle;
     width: 5.5vmin;
 }
 .eicon{
+    vertical-align: middle;
     width: 5.5vmin;
 }
 body {
