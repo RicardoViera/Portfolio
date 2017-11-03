@@ -201,17 +201,6 @@ body {
     display:inline-block;
 }
 }
-@media (min-width: 500px) and (max-width: 769px) {
-        .skillhead{
-        padding-top: 100px;
-    }
-}
-@media (max-width: 1024px) and (min-width: 770px) {
-                .skillhead{
-        padding-top: 290px;
-    }
-
-}
 @media screen and (min-width: 1024px) {
     .row .proj2 {
         margin-right: 6%;
