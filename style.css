@@ -318,7 +318,7 @@ a:active {
     transform: scale(1.1);
     -webkit-transition: -webkit-transform .15s linear;
 }
-.projlink a:link,
+.row a:link,
 a:visited {
     background-color: #BA1D20;
     color: white;
@@ -328,7 +328,7 @@ a:visited {
     border-radius: 5px;
     display:block;
 }
-.projlink a:hover,
+.row a:hover,
 a:active {
     background-color: #2F3A50;
     border-radius: 5px;
@@ -348,5 +348,9 @@ a:active {
     float:right;
     font-size: 18px;
     color: #2F3A50;
+}
+.footer a:hover{
+    color: #BA1D20;
+}
 }
 
