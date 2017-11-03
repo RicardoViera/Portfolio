@@ -161,7 +161,7 @@ body {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     -webkit-transition: -webkit-transform .15s linear;
-    transition: transform .15slinear;
+    transition: transform .15s linear;
 }
 .row .proj1,
 .proj2,
