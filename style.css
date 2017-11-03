@@ -53,7 +53,7 @@
     font-family: 'Russo One', sans-serif;
     font-size: 3vmin;
     overflow: hidden;
-    color: white;
+    color: white!important;
 }
 h3 {
     font-family: 'Russo One', sans-serif;
@@ -142,7 +142,7 @@ aside {
 }
 .eicon{
     vertical-align: middle;
-    width: 5.5vmin;
+    width: 6.5vmin;
 }
 body {
     color: #2F3A50;
