@@ -142,9 +142,6 @@ aside {
 .eicon{
     width: 5.5vmin;
 }
-.bio {
-    font-size: 18px!important;
-}
 body {
     color: #2F3A50;
     background: rgba(0, 0, 0, 0.1);
@@ -248,6 +245,7 @@ body {
 .smallcap {
     font-size: 2.5vmin;
     text-align: center;
+    padding:.5em;
 }
 .about {
     order: 2;
