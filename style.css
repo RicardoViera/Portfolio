@@ -318,7 +318,7 @@ a:active {
     transform: scale(1.1);
     -webkit-transition: -webkit-transform .15s linear;
 }
-.main a:link,
+.projlink a:link,
 a:visited {
     background-color: #BA1D20;
     color: white;
@@ -328,7 +328,7 @@ a:visited {
     border-radius: 5px;
     display:block;
 }
-.main a:hover,
+.projlink a:hover,
 a:active {
     background-color: #2F3A50;
     border-radius: 5px;
@@ -340,16 +340,13 @@ a:active {
     margin-right: 30%;
     width: 40%;
     float: right;
+    text-align:center;
     box-shadow: 1px 1px 6px 4px #95A3A3;
 }
-.footer img{
-    float:right;
-    margin-right: 1em;
-    margin-bottom: 1em;
-}
-.footer span{
-    margin-bottom: 1em;
+
+.footer a{
     float:right;
     font-size: 18px;
+    color: #2F3A50;
 }
 
