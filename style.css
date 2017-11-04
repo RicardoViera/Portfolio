@@ -275,7 +275,7 @@ body {
     display: inline-flex;
 }
 .listoflinks a:link,
-a:visited {
+.listoflinks a:visited {
     background-color: #BA1D20;
     box-shadow: 0 3px 6px #95A3A3;
     color: white;
@@ -286,7 +286,7 @@ a:visited {
     border-radius: 5px;
 }
 .listoflinks a:hover,
-a:active {
+.listoflinks a:active {
     background-color: #2F3A50;
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -321,7 +321,7 @@ a:active {
     -webkit-transition: -webkit-transform .15s linear;
 }
 .row a:link,
-a:visited {
+.row a:visited {
     background-color: #BA1D20;
     color: white;
     padding: 1em;
@@ -331,7 +331,7 @@ a:visited {
     display:block;
 }
 .row a:hover,
-a:active {
+.row a:active {
     background-color: #2F3A50;
     border-radius: 5px;
     
